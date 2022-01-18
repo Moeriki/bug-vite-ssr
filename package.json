@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@vueuse/head": "^0.7.5",
+    "vite-plugin-pages": "^0.20.0",
     "vite-ssr": "^0.15.0",
     "vue": "3",
     "vue-router": "4"
