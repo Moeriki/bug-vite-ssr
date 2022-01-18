@@ -2,8 +2,9 @@
   "name": "bug-vite-ssr",
   "version": "0.0.0",
   "private": true,
+  "main": "production.js",
   "scripts": {
-    "dev": "vite-ssr",
+    "dev": "node development",
     "build": "vue-tsc --noEmit && vite-ssr build",
     "format": "prettier --write .",
     "preview": "vite preview"
@@ -11,6 +12,8 @@
   "dependencies": {
     "@vueuse/head": "^0.7.5",
     "vite-plugin-pages": "^0.20.0",
+    "express": "^4.17.2",
+    "polka": "^0.5.2",
     "vite-ssr": "^0.15.0",
     "vue": "3",
     "vue-router": "4"
